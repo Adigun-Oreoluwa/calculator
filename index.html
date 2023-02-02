@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cal.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.2.0-web/css/all.css">
+</head>
+<body>
+    <div class="a1">
+           <div class="a2">
+            <i class="fa-solid fa-bars"></i>
+            <h2 class="a6">Standard</h2>
+            <i class="fa-solid fa-arrow-rotate-left a8"></i>
+        </div>
+        <div class="a3">
+            <h1 class="a7" id="display2"></h1>
+            <h1 class="a7"  id="display1"></h1>
+        </div>
+        <div class="a4">
+           <button class="a9">MC</button>
+           <button class="a9">MR</button>
+           <button class="a9 a10">M+</button>
+           <button class="a9 a10">M-</button>
+           <button class="a9 a10">MS</button>
+           <button class="a9">M</button>
+        </div>
+        <div class="a5">
+            <div class="a11">
+                <button onclick="per()" class="a12">%</button>
+                <button onclick="rot()" class="a12">`/</button>
+                <button onclick="book()" class="a12">X<SUP>2</SUP></button>
+                <button onclick="box() " value="" id="" class="a12">1/X</button>
+            </div>
+            <div class="a11">
+                <button onclick="ced()" class="a12">CE</button>
+                <button onclick="ter('C')" class="a12">C</button>
+                <button  onclick="fun('X')" class="a12">X</button>
+                <button onclick="sign('/')" value="/" id="" class="a12 a14">/</button>
+            </div>
+            <div class="a11">
+                <button onclick="hype(7) " value="7" id="seven" class="a12 a13">7</button>
+                <button onclick="hype(8) " value="8" id="eight" class="a12 a13">8</button>
+                <button onclick="hype(9) " value="9" id="nine" class="a12 a13">9</button>
+                <button onclick="sign('*')" value="*" id="" class="a12 a14">*</button>
+            </div>
+            <div class="a11">
+                <button onclick="hype(4) " value="4" id="four" class="a12 a13">4</button>
+                <button onclick="hype(5) " value="5" id="five" class="a12 a13">5</button>
+                <button onclick="hype(6) " value="6" id="six" class="a12 a13">6</button>
+                <button onclick="sign('-')" value="-" id="" class="a12 a14">-</button>
+
+            </div>
+            <div class="a11">
+                <button onclick="hype(1) " value="1" id="one" class="a12 a13">1</button>
+                <button onclick="hype(2) " value="2" id="two" class="a12 a13">2</button>
+                <button onclick="hype(3) " value="3" id="three" class="a12 a13">3</button>
+                <button onclick="sign('+')" value="+" id="" class="a12 a14">+</button>
+
+            </div>
+            <div class="a11">
+                <button  onclick="fan()" value="" id="" class="a12">+/_</button>
+                <button onclick="hype(0)" id="zero" value="0" class="a12 a13">0</button>
+                <button onclick="hype('.')" value="." id="dot" class="a12">.</button>
+                <button onclick="calculate('')" value="=" id="btn" class="a12 a14">=</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="./cal.js"></script>
+</html>
